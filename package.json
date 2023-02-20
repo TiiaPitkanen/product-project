@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/TiiaPitkanen/product-project/issues"
   },
-  "homepage": "https://github.com/TiiaPitkanen/product-project#readme"
+  "homepage": "https://github.com/TiiaPitkanen/product-project#readme",
+  "dependencies": {
+    "glider-js": "^1.7.8"
+  }
 }
