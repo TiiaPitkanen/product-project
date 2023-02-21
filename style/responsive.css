@@ -7,7 +7,6 @@
 
  @media (min-width: 768px) and (max-width:1023px) {
 
-
    .logo {
      padding-bottom: 5vh;
      height: 8%;
@@ -15,10 +14,8 @@
    }
 
    .dropdown-container {
-
      top: 80px;
    }
-
 
    .glider-section {
      display: none;
@@ -39,12 +36,39 @@
      width: 80%;
    }
 
+   /********** PRODUCT PAGE  ********/
+
+   .product1 {
+     height: 100vh;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     gap: 5vh;
+   }
+
+   .product1-container {
+     flex-direction: row;
+   }
+
+   .glider {
+     width: 80%;
+   }
+
+   .glider img {
+     object-fit: cover;
+     width: 100%;
+     max-height: 200px;
+   }
+
+
 
  }
 
 
- @media (min-width: 1024px) {
 
+
+ @media (min-width: 1024px) {
 
    /* NAV */
 
@@ -102,5 +126,60 @@
      width: 40vw;
 
    }
+
+
+
+   /******* PRODUCTS PAGE ***********/
+
+   .logo {
+     height: 5%;
+     width: 3%;
+   }
+
+   .dropdown-container {
+     top: 60px;
+   }
+
+   .glider-section {
+     display: none;
+   }
+
+   .product {
+     width: 100%;
+   }
+
+   /********** PRODUCT PAGE  ********/
+
+   .product1 {
+     display: flex;
+     flex-direction: column;
+     gap: 5vh;
+   }
+
+   .product1-container {
+     flex-direction: row;
+     width: 80%;
+   }
+
+   .product1-container img {
+     background-color: white;
+     padding: 0.5em;
+
+   }
+
+   .product-info {
+     display: flex;
+     flex-direction: column;
+     gap: 2vh;
+   }
+
+   .glider img {
+     background-color: white;
+     padding: 0.5em;
+     width: 100%;
+     height: auto;
+   }
+
+
 
  }
