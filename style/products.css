@@ -1,0 +1,32 @@
+.product1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+
+}
+
+.product1-container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.product1-container h1 {
+  font-weight: 700;
+  font-size: 2em;
+}
+
+.tag-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.tag-container p {
+  background-color: #7FC3F1;
+  padding: 0.5em 1em;
+
+}
