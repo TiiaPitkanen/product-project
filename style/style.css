@@ -17,6 +17,8 @@ li {
 
 body {
 	font-family: 'Titillium Web', sans-serif;
+	background-color: #F5F5DC;
+	;
 }
 
 /* NAV */
@@ -77,6 +79,10 @@ nav {
 }
 
 .dropdown li:hover {
+	background-color: rgb(208, 208, 208);
+}
+
+.dropdown li:active {
 	background-color: #7fc3f1;
 }
 
@@ -129,6 +135,15 @@ nav {
 	font-weight: 600;
 }
 
+.product {
+	border-radius: 20px;
+	padding: 1.2em;
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+}
+
+
 button {
 	margin-top: 2vh;
 	padding: 0.5em 1em;
@@ -136,6 +151,15 @@ button {
 	color: white;
 	border-radius: 50px;
 	border: none;
+}
+
+button:hover {
+
+	background-color: rgb(120, 120, 120);
+}
+
+button:active {
+	background-color: #7fc3f1;
 }
 
 .button-container {
@@ -146,6 +170,10 @@ button {
 
 .button-icon {
 	font-size: 1.75em;
+}
+
+button a {
+	color: white;
 }
 
 /* RED SECTION */
