@@ -15,6 +15,7 @@ let imageData = [
 
 imageData.forEach((image) => {
 	console.log(image);
+	imageTextContainer.textContent
 });
 
 let addData = () => {

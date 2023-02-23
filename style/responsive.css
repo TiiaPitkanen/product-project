@@ -2,23 +2,6 @@
    .grid-section {
      display: none;
    }
-
-   .glider-prev,
-   .glider-next {
-     font-size: 40px;
-
-     top: 90%;
-
-   }
-
-   .glider-prev {
-     left: 50px;
-   }
-
-   .glider-next {
-     right: 50px;
-
-   }
  }
 
 
@@ -78,22 +61,6 @@
      max-height: 200px;
    }
 
-
-   .glider-prev,
-   .glider-next {
-
-     top: 60%;
-
-   }
-
-   .glider-prev {
-     left: 10px;
-   }
-
-   .glider-next {
-     right: 40px;
-
-   }
 
  }
 
