@@ -13,19 +13,10 @@ let imageData = [
 	},
 ];
 
-imageData.forEach((image) => {
-	console.log(image);
-	imageTextContainer.textContent
-});
-
 let addData = () => {
 	let imageContainer = document.querySelector('.imageContainer');
 	let imageNameContainer = document.querySelector('.imageName');
 	let imageTextContainer = document.querySelector('.imageText');
-
-	imageContainer.innerHTML = imageData[0].imagePath;
-	imageNameContainer.textContent = imageData[0].imageName;
-	imageTextContainer.textContent = imageData[0].imageText;
 };
 
 // addData();

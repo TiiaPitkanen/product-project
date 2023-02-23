@@ -1,8 +1,13 @@
-const arrow = document.querySelector('.arrow');
-const dropdown = document.querySelector('.dropdown');
+import { navigation } from './common/navigation.js';
+import { products } from './common/products.js';
 
-const toggleNav = () => {
-	dropdown.classList.toggle('active');
-};
+// const arrow = document.querySelector('.arrow');
+// const dropdown = document.querySelector('.dropdown');
 
-arrow.addEventListener('click', toggleNav);
+// const toggleNav = () => {
+// 	dropdown.classList.toggle('active');
+// };
+
+// arrow.addEventListener('click', toggleNav);
+
+navigation();

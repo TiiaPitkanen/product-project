@@ -144,6 +144,10 @@ nav {
 }
 
 
+.product button {
+	width: 80%;
+}
+
 button {
 	margin-top: 2vh;
 	padding: 0.5em 1em;
@@ -154,7 +158,6 @@ button {
 }
 
 button:hover {
-
 	background-color: rgb(120, 120, 120);
 }
 
